@@ -1,0 +1,11 @@
+applications:
+- path: target/TomcatHelloWorldApp.war
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: mqleijfemqo
+  host: mqleijfemqo
+  disk_quota: 1024M
+  services:
+  - Cloudant NoSQL DB-u2
+  buildpack: java_buildpack
